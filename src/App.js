@@ -22,8 +22,8 @@ class App extends Component {
         "handle": "@starmaerker",
         "avatarURL": "http://localhost:5001/andreas.jpg"
       }
-    ]
-  }
+    ]    
+  } 
 
   removeContact = (contact) => {
     this.setState((currentState) => ( {
@@ -39,7 +39,7 @@ class App extends Component {
         <ListContacts
            contacts={this.state.contacts}
            onDeleteContact={this.removeContact}
-         />
+         />         
       </div>
     )
   }

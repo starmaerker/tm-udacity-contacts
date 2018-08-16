@@ -23,7 +23,7 @@ function ListContacts(props) {
                     </button>
                 </li>
             ))}
-        </ol>
+        </ol>        
     )
 }
 
